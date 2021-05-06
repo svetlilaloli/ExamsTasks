@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LootBox", "LootBox\LootBox.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReVolt", "ReVolt\ReVolt.csproj", "{7C948409-07A0-413B-A36E-6340A9E9C3EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guild", "Guild\Guild.csproj", "{EF0E7F12-4A3F-4ABF-B06E-649F2D3AA2CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7C948409-07A0-413B-A36E-6340A9E9C3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C948409-07A0-413B-A36E-6340A9E9C3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C948409-07A0-413B-A36E-6340A9E9C3EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF0E7F12-4A3F-4ABF-B06E-649F2D3AA2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0E7F12-4A3F-4ABF-B06E-649F2D3AA2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF0E7F12-4A3F-4ABF-B06E-649F2D3AA2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0E7F12-4A3F-4ABF-B06E-649F2D3AA2CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

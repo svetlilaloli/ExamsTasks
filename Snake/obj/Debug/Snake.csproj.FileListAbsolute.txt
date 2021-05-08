@@ -1,0 +1,7 @@
+C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\Snake\bin\Debug\Snake.exe.config
+C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\Snake\bin\Debug\Snake.exe
+C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\Snake\bin\Debug\Snake.pdb
+C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\Snake\obj\Debug\Snake.csprojAssemblyReference.cache
+C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
+C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\Snake\obj\Debug\Snake.exe
+C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\Snake\obj\Debug\Snake.pdb

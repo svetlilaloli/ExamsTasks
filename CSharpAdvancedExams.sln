@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bombs", "Bombs\Bombs.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Snake\Snake.csproj", "{3CA8C655-C7CC-42AF-9AD9-8F328582B30A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parking", "Parking\Parking.csproj", "{F328F28D-720D-4D69-B38D-DED84C13313F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3CA8C655-C7CC-42AF-9AD9-8F328582B30A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CA8C655-C7CC-42AF-9AD9-8F328582B30A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CA8C655-C7CC-42AF-9AD9-8F328582B30A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F328F28D-720D-4D69-B38D-DED84C13313F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F328F28D-720D-4D69-B38D-DED84C13313F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F328F28D-720D-4D69-B38D-DED84C13313F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F328F28D-720D-4D69-B38D-DED84C13313F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,0 @@
-C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\FlowerWreaths\bin\Debug\FlowerWreaths.exe.config
-C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\FlowerWreaths\bin\Debug\FlowerWreaths.exe
-C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\FlowerWreaths\bin\Debug\FlowerWreaths.pdb
-C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\FlowerWreaths\obj\Debug\FlowerWreaths.csprojAssemblyReference.cache
-C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\FlowerWreaths\obj\Debug\FlowerWreaths.csproj.CoreCompileInputs.cache
-C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\FlowerWreaths\obj\Debug\FlowerWreaths.exe
-C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\FlowerWreaths\obj\Debug\FlowerWreaths.pdb

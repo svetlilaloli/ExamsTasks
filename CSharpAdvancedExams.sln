@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parking", "Parking\Parking.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerWreaths", "FlowerWreaths\FlowerWreaths.csproj", "{32FC4AAE-14E5-4BFF-AB3B-3816BFC32F11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bee", "Bee\Bee.csproj", "{A0EDE7E9-C862-4BCF-B63B-9D66B3D02C78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{32FC4AAE-14E5-4BFF-AB3B-3816BFC32F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32FC4AAE-14E5-4BFF-AB3B-3816BFC32F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32FC4AAE-14E5-4BFF-AB3B-3816BFC32F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0EDE7E9-C862-4BCF-B63B-9D66B3D02C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0EDE7E9-C862-4BCF-B63B-9D66B3D02C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0EDE7E9-C862-4BCF-B63B-9D66B3D02C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0EDE7E9-C862-4BCF-B63B-9D66B3D02C78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

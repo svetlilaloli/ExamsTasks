@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bee", "Bee\Bee.csproj", "{A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetClinic", "VetClinic\VetClinic.csproj", "{AF7A54E7-A2F8-4959-8006-F18B12A705F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduling", "Scheduling\Scheduling.csproj", "{C0970021-FE55-4B56-A9F5-EF9F1E4FB3BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{AF7A54E7-A2F8-4959-8006-F18B12A705F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF7A54E7-A2F8-4959-8006-F18B12A705F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF7A54E7-A2F8-4959-8006-F18B12A705F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0970021-FE55-4B56-A9F5-EF9F1E4FB3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0970021-FE55-4B56-A9F5-EF9F1E4FB3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0970021-FE55-4B56-A9F5-EF9F1E4FB3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0970021-FE55-4B56-A9F5-EF9F1E4FB3BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

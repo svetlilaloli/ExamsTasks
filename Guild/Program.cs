@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Guild
 {
@@ -11,7 +8,7 @@ namespace Guild
         public static void Main()
         {
             //Initialize the repository (guild)
-            Guild guild = new Guild("Weekend Raiders", 1);
+            Guild guild = new Guild("Weekend Raiders", 20);
             //Initialize entity
             Player player = new Player("Mark", "Rogue");
             //Print player

@@ -8,7 +8,7 @@ namespace Guild
     {
         private readonly List<Player> roster;
         public string Name { get; private set; }
-        public int Capacity { get { return roster.Capacity; } private set { } }
+        public int Capacity { get; }
         public int Count => roster.Count;
         public Guild(string name, int capacity)
         {
@@ -19,7 +19,10 @@ namespace Guild
 
         public void AddPlayer(Player player)
         {
-            roster.Add(player);
+            if (Count < Capacity)
+            {
+                roster.Add(player);
+            }
         }
         public bool RemovePlayer(string name)
         {
@@ -43,14 +46,18 @@ namespace Guild
         }
         public string Report()
         {
-            StringBuilder result = new StringBuilder();
-            result.Append($"Players in the guild: {Name}\n");
-
-            foreach (Player player in roster)
+            if (Count > 0)
             {
-                result.Append($"{player}\n");
+                StringBuilder result = new StringBuilder();
+                result.Append($"Players in the guild: {Name}\n");
+
+                foreach (Player player in roster)
+                {
+                    result.Append($"{player}\n");
+                }
+                return result.ToString();
             }
-            return result.ToString();
+            return "";
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\Classroom\bin\Debug\Classroom.exe.config
+C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\Classroom\bin\Debug\Classroom.exe
+C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\Classroom\bin\Debug\Classroom.pdb
+C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\Classroom\obj\Debug\Classroom.csprojAssemblyReference.cache
+C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\Classroom\obj\Debug\Classroom.csproj.CoreCompileInputs.cache
+C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\Classroom\obj\Debug\Classroom.exe
+C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\Classroom\obj\Debug\Classroom.pdb

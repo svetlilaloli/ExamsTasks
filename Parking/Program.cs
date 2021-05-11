@@ -1,7 +1,6 @@
-﻿using System;
-
-namespace Parking
+﻿namespace Parking
 {
+    using System;
     public class Program
     {
         public static void Main()
@@ -38,7 +37,7 @@ namespace Parking
 
             // Count
             Console.WriteLine(parking.Count); // 2
-
+            
             // Get Statistics
             Console.WriteLine(parking.GetStatistics());
             // The cars are parked in Underground parking garage:

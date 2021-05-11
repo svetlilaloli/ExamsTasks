@@ -1,12 +1,13 @@
 ﻿namespace Parking
 {
     using System.Collections.Generic;
+    using System.Linq;
     using System.Text;
     public class Parking
     {
         private readonly List<Car> data;
-        public string Type { get; set; }
-        public int Capacity { get; set; }
+        public string Type { get; private set; }
+        public int Capacity { get; }
         public int Count => data.Count;
         public Parking(string type, int capacity)
         {
@@ -16,12 +17,16 @@
         }
         public void Add(Car car)
         {
-            data.Add(car);
+            if (Count < Capacity)
+            {
+                data.Add(car);
+            }
         }
         public bool Remove(string manufacturer, string model)
         {
-            int removed = data.RemoveAll(c => c.Manufacturer == manufacturer && c.Model == model);
-            if (removed > 0)
+            var found = data.Find(c => c.Manufacturer == manufacturer && c.Model == model);
+            data.Remove(found);
+            if (found != null)
             {
                 return true;
             }
@@ -29,11 +34,7 @@
         }
         public Car GetLatestCar()
         {
-            if (Count > 0)
-            {
-                return data[Count - 1];
-            }
-            return null;
+            return data.Find(x => x.Year == data.Max(c => c.Year));
         }
         public Car GetCar(string manufacturer, string model)
         {
@@ -41,15 +42,19 @@
         }
         public string GetStatistics()
         {
-            StringBuilder result = new StringBuilder();
-            
-            result.Append($"The cars are parked in { Type}:");
-
-            foreach (Car car in data)
+            if (Count > 0)
             {
-                result.Append($"\n{car}");
+                StringBuilder result = new StringBuilder();
+
+                result.Append($"The cars are parked in { Type}:");
+
+                foreach (Car car in data)
+                {
+                    result.Append($"\n{car}");
+                }
+                return result.ToString();
             }
-            return result.ToString();
+            return null;
         }
     }
 }

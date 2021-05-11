@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 
 namespace Guild
@@ -38,7 +37,7 @@ namespace Guild
         }
         public Player[] KickPlayersByClass(string pClass)
         {
-            Player[] kicked = roster.Where(p => p.Class == pClass).ToArray();
+            Player[] kicked = roster.FindAll(p => p.Class == pClass).ToArray();
             
             roster.RemoveAll(p => p.Class == pClass);
             
@@ -57,7 +56,7 @@ namespace Guild
                 }
                 return result.ToString();
             }
-            return "";
+            return null;
         }
     }
 }

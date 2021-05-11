@@ -5,22 +5,27 @@
     using System.Text;
     public class Clinic
     {
-        private List<Pet> data;
-        public int Capacity { get; set; }
+        private readonly List<Pet> data;
+        public int Capacity { get; }
         public Clinic(int capacity)
         {
             data = new List<Pet>(capacity);
+            Capacity = capacity;
         }
         public int Count => data.Count;
         public void Add(Pet pet)
         {
-            data.Add(pet);
+            if (Count < Capacity)
+            {
+                data.Add(pet);
+            }
         }
         public bool Remove(string name)
         {
-            int result = data.RemoveAll(p => p.Name == name);
-            if (result > 0)
+            var found = data.Find(p => p.Name == name);
+            if (found != null)
             {
+                data.Remove(found);
                 return true;
             }
             return false;
@@ -35,14 +40,18 @@
         }
         public string GetStatistics()
         {
-            StringBuilder result = new StringBuilder();
-            result.Append("The clinic has the following patients:");
-
-            foreach (Pet pet in data)
+            if (Count > 0)
             {
-                result.Append($"\nPet {pet.Name}\nwith owner: {pet.Owner}");
+                StringBuilder result = new StringBuilder();
+                result.Append("The clinic has the following patients:");
+
+                foreach (Pet pet in data)
+                {
+                    result.Append($"\nPet {pet.Name}\nwith owner: {pet.Owner}");
+                }
+                return result.ToString();
             }
-            return result.ToString();
+            return null;
         }
     }
 }

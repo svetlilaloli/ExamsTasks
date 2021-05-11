@@ -25,9 +25,9 @@
         public bool Remove(string manufacturer, string model)
         {
             var found = data.Find(c => c.Manufacturer == manufacturer && c.Model == model);
-            data.Remove(found);
             if (found != null)
             {
+                data.Remove(found);
                 return true;
             }
             return false;

@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garden", "Garden\Garden.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classroom", "Classroom\Classroom.csproj", "{2D6EDE47-D404-416E-A4C7-032E483921EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooking", "Cooking\Cooking.csproj", "{62AF3595-3811-4C94-9EA7-6BAE64FCCF31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{2D6EDE47-D404-416E-A4C7-032E483921EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D6EDE47-D404-416E-A4C7-032E483921EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D6EDE47-D404-416E-A4C7-032E483921EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62AF3595-3811-4C94-9EA7-6BAE64FCCF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62AF3595-3811-4C94-9EA7-6BAE64FCCF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62AF3595-3811-4C94-9EA7-6BAE64FCCF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62AF3595-3811-4C94-9EA7-6BAE64FCCF31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

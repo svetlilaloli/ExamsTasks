@@ -1,4 +1,4 @@
-﻿namespace Openning
+﻿namespace Opening
 {
     public class Employee
     {

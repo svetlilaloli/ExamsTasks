@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text;
 
-namespace Openning
+namespace Opening
 {
     public class Bakery
     {

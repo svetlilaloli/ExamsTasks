@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Openning
+namespace Opening
 {
     public class Program
     {

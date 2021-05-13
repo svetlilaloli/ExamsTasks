@@ -7,7 +7,7 @@ namespace Opening
     public class Bakery
     {
         private readonly List<Employee> data;
-        public string  Name { get; private set; }
+        public string Name { get; private set; }
         public int Capacity { get; }
         public int Count => data.Count;
         public Bakery(string name, int capacity)

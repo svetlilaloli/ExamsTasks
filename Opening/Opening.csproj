@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F5D22DBF-DD7A-4DFC-B4F1-92666C8EB84E}</ProjectGuid>
+    <ProjectGuid>{1365533D-9321-4A79-A618-B8898B6125F5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Openning</RootNamespace>
-    <AssemblyName>Openning</AssemblyName>
+    <RootNamespace>Opening</RootNamespace>
+    <AssemblyName>Opening</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

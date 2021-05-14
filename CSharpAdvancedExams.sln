@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selling", "Selling\Selling.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opening", "Opening\Opening.csproj", "{1365533D-9321-4A79-A618-B8898B6125F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheFightForGondor", "TheFightForGondor\TheFightForGondor.csproj", "{9EE7B730-37F4-4FB7-96A4-E08601714B84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{1365533D-9321-4A79-A618-B8898B6125F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1365533D-9321-4A79-A618-B8898B6125F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1365533D-9321-4A79-A618-B8898B6125F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE7B730-37F4-4FB7-96A4-E08601714B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE7B730-37F4-4FB7-96A4-E08601714B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE7B730-37F4-4FB7-96A4-E08601714B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE7B730-37F4-4FB7-96A4-E08601714B84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

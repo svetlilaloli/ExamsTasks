@@ -1,7 +1,0 @@
-C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\TheFightForGondor\bin\Debug\TheFightForGondor.exe.config
-C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\TheFightForGondor\bin\Debug\TheFightForGondor.exe
-C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\TheFightForGondor\bin\Debug\TheFightForGondor.pdb
-C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\TheFightForGondor\obj\Debug\TheFightForGondor.csprojAssemblyReference.cache
-C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\TheFightForGondor\obj\Debug\TheFightForGondor.csproj.CoreCompileInputs.cache
-C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\TheFightForGondor\obj\Debug\TheFightForGondor.exe
-C:\Users\Sony Vaio\source\repos\CSharpAdvancedExams\TheFightForGondor\obj\Debug\TheFightForGondor.pdb
